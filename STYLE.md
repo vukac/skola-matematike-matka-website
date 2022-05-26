@@ -9,6 +9,7 @@
 ### Font weights
 
 - 400
+- 500
 - 700
 
 ### Line heights

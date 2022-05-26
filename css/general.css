@@ -85,3 +85,41 @@ body {
 .header__link:hover {
   font-size: 3.6rem;
 }
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+  padding: 0.8rem 1.6rem 0 1.6rem;
+}
+
+.navbar__logo img {
+  height: 6rem;
+}
+
+.navbar__main ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar__main ul li:not(:last-child) {
+  margin-right: 3.2rem;
+}
+
+.navbar__link:link,
+.navbar__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  color: #eee;
+  padding-bottom: 1.2rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.navbar__link:hover {
+  border-bottom: 2px solid #004d7b;
+}
