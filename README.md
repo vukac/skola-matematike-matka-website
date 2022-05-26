@@ -15,3 +15,9 @@ browser and you will get the website. When you make a change in the code, or
 write something new, you need to refresh the page manually to see the changes.
 If your css and js changes don't apply, try to cleare the cache of the page and
 make a hard reload. If that doesn't work, then restart Apache.
+
+## 3rd-party services 👏
+
+- [Google Fonts](https://fonts.google.com/)
+- [Unsplash](https://unsplash.com/)
+- [Ionicons](https://ionic.io/ionicons)

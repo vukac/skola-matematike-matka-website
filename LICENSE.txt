@@ -4,6 +4,10 @@ matematike Matka and are copyrighted. Any other use must be authorized by Škola
 matematike Matka which holds all the rights for these files and the content.
 For more information contact hello@matka.ba.
 
+The image ./assets/img/hero.jpg is from https://unsplash.com/ and is therefore
+free to use. Author is Dan-Cristian Pădureț
+(https://unsplash.com/@dancristianpaduret).
+
 Any other part of this project is available under the MIT license as follow:
 
 Copyright (c) 2022 Vukac (https://github.com/vukac)

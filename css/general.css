@@ -1,0 +1,87 @@
+/*******************************************************************
+************************* GLOBAL ***********************************
+********************************************************************/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  font-size: 1.8rem;
+}
+
+/*******************************************************************
+************************* HEADINGS *********************************
+********************************************************************/
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.heading-primary--white {
+  color: #fff;
+}
+
+/*******************************************************************
+************************* LAYOUT ***********************************
+********************************************************************/
+
+/* HEADER */
+
+.header {
+  height: 65vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../assets/img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header__text-box {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  padding-left: 12.8rem;
+}
+
+.header__tagline {
+  font-size: 3rem;
+  color: #004d7b;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.header__social-media {
+  list-style: none;
+  display: flex;
+}
+
+.header__social-media li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.header__link:link,
+.header__link:visited {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+  font-size: 3rem;
+}
+
+.header__link:hover {
+  font-size: 3.6rem;
+}
