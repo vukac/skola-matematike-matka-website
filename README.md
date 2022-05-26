@@ -22,3 +22,4 @@ make a hard reload. If that doesn't work, then restart Apache.
 - [Unsplash](https://unsplash.com/)
 - [Ionicons](https://ionic.io/ionicons)
 - [Swiper](https://swiperjs.com/)
+- [GLightbox](https://biati-digital.github.io/glightbox/)

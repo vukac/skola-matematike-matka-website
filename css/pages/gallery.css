@@ -1,0 +1,22 @@
+/*******************************************************************
+************************* GALLERY SECTION ***************************
+********************************************************************/
+
+/* GALLERY SECTION */
+
+.section-gallery {
+  padding: 8rem 0 4.8rem;
+}
+
+/* GALLERY COMPONENT */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+}
+
+.gallery__item img {
+  width: 100%;
+  height: 20rem;
+}

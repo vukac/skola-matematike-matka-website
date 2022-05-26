@@ -5,8 +5,340 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Škola matematike Matka - Galerija</title>
+
+    <!-- GOOGLE FONTS - ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- IONICONS -->
+    <script
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+
+    <!-- GLightbox -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"
+      defer
+    ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/pages/gallery.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+
+    <!-- JS -->
+    <script src="./js/general.js" defer></script>
+    <script src="./js/pages/gallery.js" defer></script>
   </head>
   <body>
-    <h1>Galerija</h1>
+    <!-- HEADER -->
+    <header class="header">
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <a href="./" class="navbar__logo">
+          <img
+            src="./assets/matka/img/logo.png"
+            alt="Škola matematike Matka logo"
+          />
+        </a>
+
+        <nav class="navbar__main">
+          <ul>
+            <li>
+              <a href="./" class="navbar__link">Naslovnica</a>
+            </li>
+            <li>
+              <a href="./galerija" class="navbar__link">Galerija</a>
+            </li>
+            <li>
+              <a href="./programi" class="navbar__link">Programi</a>
+            </li>
+            <li>
+              <a href="./kontakt" class="navbar__link">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="navbar__btn">
+          <ion-icon
+            name="menu-outline"
+            class="navbar__icon navbar__icon--menu"
+          ></ion-icon>
+          <ion-icon
+            name="close-outline"
+            class="navbar__icon navbar__icon--close"
+          ></ion-icon>
+        </button>
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary heading-primary--white">
+          Škola matematike Matka
+        </h1>
+        <p class="header__tagline">Računaj na znanje</p>
+        <ul class="header__social-media">
+          <li>
+            <a
+              href="https://www.facebook.com/pages/category/School/%C5%A0kola-matematike-Matka-105577020834153/"
+              target="_blank"
+              class="header__link"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/skolamatematikematka/"
+              target="_blank"
+              class="header__link"
+            >
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <!-- GALLERY SECTION -->
+      <section class="section-gallery">
+        <div class="container margin-bottom--large">
+          <h2
+            class="heading-secondary heading-secondary--grey margin-bottom--small"
+          >
+            Zavirite u Matku 🧐
+          </h2>
+        </div>
+        <div class="container gallery">
+          <!-- IMAGE 1 -->
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-1.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-1.jpg"
+              alt="Učenici Matke aktivno sudjeluju u nastavi"
+            />
+          </a>
+
+          <!-- IMAGE 2 -->
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-2.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-2.jpg"
+              alt="Učenik Matke aktivno sudjeluje u nastavi uz nadzor profesorice"
+            />
+          </a>
+
+          <!-- IMAGE 3 -->
+          <a
+            href="./assets/matka/img/gallery/matka-tim-1.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/matka-tim-1.jpg"
+              alt="Matka tim"
+            />
+          </a>
+
+          <!-- IMAGE 4 -->
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-3.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-3.jpg"
+              alt="Učenik Matke rješava zadatak na ploči"
+            />
+          </a>
+
+          <!-- IMAGE 5 -->
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-4.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-4.jpg"
+              alt="Učenica Matke se veseli na nastavi"
+            />
+          </a>
+
+          <!-- IMAGE 6 -->
+
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-5.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-5.jpg"
+              alt="Učenici Matke aktivno sudjeluju u nastavi uz pomoć profesorice"
+            />
+          </a>
+
+          <!-- IMAGE 7 -->
+
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-6.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-6.jpg"
+              alt="Učenici Matke aktivno sudjeluju u nastavi"
+            />
+          </a>
+
+          <!-- IMAGE 8 -->
+
+          <a
+            href="./assets/matka/img/gallery/matka-tim-2.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/matka-tim-2.jpg"
+              alt="Matka tim"
+            />
+          </a>
+
+          <!-- IMAGE 9 -->
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-7.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-7.jpg"
+              alt="Učenik Matke rješava zadatak na ploči uz nadzor profesorice"
+            />
+          </a>
+
+          <!-- IMAGE 10 -->
+
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-8.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-8.jpg"
+              alt="Učenik Matke rješava zadatak na ploči uz pomoć profesorice"
+            />
+          </a>
+
+          <!-- IMAGE 11 -->
+
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-9.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-9.jpg"
+              alt="Učenik Matke rješava zadatak uz nadzor profesorice"
+            />
+          </a>
+
+          <!-- IMAGE 12 -->
+          <a
+            href="./assets/matka/img/gallery/matka-tim-3.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/matka-tim-3.jpg"
+              alt="Matka tim"
+            />
+          </a>
+
+          <!-- IMAGE 13 -->
+
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-10.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-10.jpg"
+              alt="Učenice Matke aktivno sudjeluju u nastavi"
+            />
+          </a>
+
+          <!-- IMAGE 14 -->
+
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-11.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-11.jpg"
+              alt="Učenici Matke aktivno sudjeluju u nastavi"
+            />
+          </a>
+
+          <!-- IMAGE 15 -->
+
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-12.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-12.jpg"
+              alt="Učenice Matke aktivno sudjeluju u nastavi uz pomoć profesorice"
+            />
+          </a>
+
+          <!-- IMAGE 16 -->
+          <a
+            href="./assets/matka/img/gallery/ucenje-u-matki-13.jpg"
+            class="glightbox gallery__item"
+            data-gallery="gallery"
+          >
+            <img
+              src="./assets/matka/img/gallery/ucenje-u-matki-13.jpg"
+              alt="Učenici Matke prate profesoricu dok im objašnjava zadatak"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__info">
+          Kliknite
+          <a
+            target="_blank"
+            class="footer__link"
+            href="https://github.com/vukac/skola-matematike-matka-website"
+            >ovdje</a
+          >
+          kako biste vidjeli licencu. Stranicu razvila GitHub organizacija
+          <a
+            target="_blank"
+            class="footer__link"
+            href="https://github.com/vukac"
+            >Vukac</a
+          >.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
