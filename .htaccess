@@ -1,0 +1,12 @@
+RewriteEngine on
+
+# If the requested file name is an existing folder, don't
+# change anything and don't run the role.
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# If the requested file name + .html doesn't exist, don't
+# change anything and don't run the role.
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Send the requested file name + .html back to the client
+RewriteRule ^(.*)$ $1.html [NC,L]
