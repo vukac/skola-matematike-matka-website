@@ -25,3 +25,87 @@
 .location__info {
   line-height: 1.8;
 }
+
+/*******************************************************************
+************************* CTA SECTION ******************************
+********************************************************************/
+
+.section-cta {
+  padding: 8rem 0 4.8rem;
+}
+
+/* CONTACT LINK COMPONENT */
+
+.contact-link:link,
+.contact-link:visited {
+  text-decoration: none;
+  color: #888;
+  transition: all 0.3s;
+}
+
+.contact-link:hover {
+  color: #555;
+}
+
+/* CTA COMPONENT */
+
+.cta {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  background-color: rgba(118, 77, 49, 0.2);
+  border-radius: 2rem;
+  padding: 3.2rem 3.2rem 4.8rem;
+}
+
+/* FORM */
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .form__group:not(:last-child) {
+  margin-bottom: 3.2rem;
+}
+
+.form__label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.form__input,
+.form__text,
+.form__btn {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  color: #333;
+}
+
+.form__input:focus,
+.form__text:focus {
+  outline: none;
+}
+
+.form__text {
+  height: 10rem;
+}
+
+.form__btn {
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  transition: all 0.3s;
+  margin-bottom: 1.6rem;
+}
+
+.form__btn:hover {
+  background-color: #fff;
+  color: #333;
+}

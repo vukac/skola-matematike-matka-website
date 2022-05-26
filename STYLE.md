@@ -57,6 +57,7 @@
 ## Shadows
 
 - 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+- 0 1px 2px rgba(0, 0, 0, 0.4);
 
 ## Animations
 
