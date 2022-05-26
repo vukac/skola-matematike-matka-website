@@ -144,6 +144,29 @@ body {
   border-bottom: 2px solid #004d7b;
 }
 
+/* FOOTER */
+
+.footer {
+  border-top: 1px solid;
+  padding: 2.4rem 0;
+}
+
+.footer__info {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.footer__link:link,
+.footer__link:visited {
+  text-decoration: none;
+  color: #888;
+  transition: all 0.3s;
+}
+
+.footer__link:hover {
+  color: #555;
+}
+
 /* CONTAINER */
 
 .container {
