@@ -1,0 +1,98 @@
+/*******************************************************************
+************************* PROGRAMS SECTION *************************
+********************************************************************/
+
+.section-programs {
+  padding: 8rem 0 4.8rem;
+}
+
+/* CARD COMPONENT */
+
+.card {
+  height: 48rem;
+  border-radius: 3px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  position: relative;
+}
+
+.card__picture {
+  background-size: cover;
+  height: 20rem;
+  background-blend-mode: hue;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  margin-bottom: 2.4rem;
+}
+
+.card__picture--math {
+  background-image: linear-gradient(to right bottom, #337195, #00273e),
+    url(../../assets/img/math.jpg);
+}
+
+.card__picture--physics {
+  background-image: linear-gradient(to right bottom, #91715a, #3b2719),
+    url(../../assets/img/physics.jpg);
+}
+
+.card__heading {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  padding: 1.6rem 0.8rem;
+}
+
+.card__heading--math {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(51, 113, 149, 0.85),
+    rgba(0, 39, 62, 0.85)
+  );
+}
+
+.card__heading--physics {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(145, 113, 90, 0.85),
+    rgba(59, 39, 25, 0.85)
+  );
+}
+
+.card__price {
+  text-align: center;
+  font-size: 5.2rem;
+  font-weight: 100;
+  margin-bottom: 1.6rem;
+}
+
+.card__price--math {
+  color: #004d7b;
+}
+
+.card__price--physics {
+  color: #764d31;
+}
+
+.card__price span {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.card__details {
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card__details li {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.card__details li:not(:last-child) {
+  border-bottom: 1px solid #888;
+}

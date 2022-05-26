@@ -5,8 +5,240 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Škola matematike Matka - Programi</title>
+
+    <!-- GOOGLE FONTS - ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- IONICONS -->
+    <script
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      defer
+    ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/pages/programs.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+
+    <!-- JS -->
+    <script src="./js/general.js" defer></script>
   </head>
   <body>
-    <h1>Programi</h1>
+    <!-- HEADER -->
+    <header class="header">
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <a href="./" class="navbar__logo">
+          <img
+            src="./assets/matka/img/logo.png"
+            alt="Škola matematike Matka logo"
+          />
+        </a>
+
+        <nav class="navbar__main">
+          <ul>
+            <li>
+              <a href="./" class="navbar__link">Naslovnica</a>
+            </li>
+            <li>
+              <a href="./galerija" class="navbar__link">Galerija</a>
+            </li>
+            <li>
+              <a href="./programi" class="navbar__link">Programi</a>
+            </li>
+            <li>
+              <a href="./kontakt" class="navbar__link">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="navbar__btn">
+          <ion-icon
+            name="menu-outline"
+            class="navbar__icon navbar__icon--menu"
+          ></ion-icon>
+          <ion-icon
+            name="close-outline"
+            class="navbar__icon navbar__icon--close"
+          ></ion-icon>
+        </button>
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary heading-primary--white">
+          Škola matematike Matka
+        </h1>
+        <p class="header__tagline">Računaj na znanje</p>
+        <ul class="header__social-media">
+          <li>
+            <a
+              href="https://www.facebook.com/pages/category/School/%C5%A0kola-matematike-Matka-105577020834153/"
+              target="_blank"
+              class="header__link"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/skolamatematikematka/"
+              target="_blank"
+              class="header__link"
+            >
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <!-- PROGRAMS SECTION -->
+      <section class="section-programs">
+        <div class="container margin-bottom--large">
+          <h2
+            class="heading-secondary heading-secondary--grey margin-bottom--small"
+          >
+            Usluge koje nudimo ✍️
+          </h2>
+          <p class="text-description">
+            Škola matematike Matka nudi grupne programe matematike i fizike za
+            osnovnoškolce, te individualne programe za srednjoškolce i studente.
+          </p>
+        </div>
+
+        <div class="container grid grid__col--3">
+          <!-- CARD 1 -->
+          <div class="card">
+            <div class="card__picture card__picture--math">&nbsp;</div>
+            <h4 class="card__heading card__heading--math">
+              Mini Matkamatičari
+            </h4>
+            <p class="card__price card__price--math">
+              30KM <span>/ Mjesec</span>
+            </p>
+
+            <ul class="card__details">
+              <li>uzrast: 1. - 5. razred</li>
+              <li>tip: grupni, do 8 učenika</li>
+              <li>2 x tjedno po 45 min</li>
+              <li>prati nastavni plan škola</li>
+            </ul>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="card">
+            <div class="card__picture card__picture--math">&nbsp;</div>
+            <h4 class="card__heading card__heading--math">Matkamatičari</h4>
+            <p class="card__price card__price--math">
+              40KM <span>/ Mjesec</span>
+            </p>
+
+            <ul class="card__details">
+              <li>uzrast: 6. - 9. razred</li>
+              <li>tip: grupni, do 8 učenika</li>
+              <li>2 x tjedno po 45 min</li>
+              <li>prati nastavni plan škola</li>
+            </ul>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="card">
+            <div class="card__picture card__picture--math">&nbsp;</div>
+            <h4 class="card__heading card__heading--math">XL Math</h4>
+            <p class="card__price card__price--math">10KM <span>/ Sat</span></p>
+
+            <ul class="card__details">
+              <li>uzrast: srednja škola</li>
+              <li>tip: individualni</li>
+              <li>termini po dogovoru</li>
+            </ul>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="card">
+            <div class="card__picture card__picture--math">&nbsp;</div>
+            <h4 class="card__heading card__heading--math">XXL Math</h4>
+            <p class="card__price card__price--math">15KM <span>/ Sat</span></p>
+
+            <ul class="card__details">
+              <li>uzrast: srednja škola</li>
+              <li>tip: individualni</li>
+              <li>termini po dogovoru</li>
+            </ul>
+          </div>
+
+          <!-- CARD 5 -->
+          <div class="card">
+            <div class="card__picture card__picture--physics">&nbsp;</div>
+            <h4 class="card__heading card__heading--physics">Matkafizičari</h4>
+            <p class="card__price card__price--physics">
+              30KM <span>/ Mjesec</span>
+            </p>
+
+            <ul class="card__details">
+              <li>uzrast: 8. - 9. razred</li>
+              <li>tip: grupni, do 8 učenika</li>
+              <li>1 x tjedno po 60 min</li>
+              <li>prati nastavni plan škola</li>
+            </ul>
+          </div>
+
+          <!-- CARD 6 -->
+          <div class="card">
+            <div class="card__picture card__picture--physics">&nbsp;</div>
+            <h4 class="card__heading card__heading--physics">XL Physics</h4>
+            <p class="card__price card__price--physics">
+              10KM <span>/ Sat</span>
+            </p>
+
+            <ul class="card__details">
+              <li>uzrast: srednja škola</li>
+              <li>tip: individualni</li>
+              <li>termini po dogovoru</li>
+            </ul>
+          </div>
+
+          <!-- CARD 7 -->
+          <div class="card">
+            <div class="card__picture card__picture--physics">&nbsp;</div>
+            <h4 class="card__heading card__heading--physics">XXL Physics</h4>
+            <p class="card__price card__price--physics">
+              15KM <span>/ Sat</span>
+            </p>
+
+            <ul class="card__details">
+              <li>uzrast: fakultet</li>
+              <li>tip: individualni</li>
+              <li>termini po dogovoru</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__info">
+          Kliknite
+          <a
+            target="_blank"
+            class="footer__link"
+            href="https://github.com/vukac/skola-matematike-matka-website"
+            >ovdje</a
+          >
+          kako biste vidjeli licencu. Stranicu razvila GitHub organizacija
+          <a
+            target="_blank"
+            class="footer__link"
+            href="https://github.com/vukac"
+            >Vukac</a
+          >.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

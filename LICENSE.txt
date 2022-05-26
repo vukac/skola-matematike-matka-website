@@ -8,6 +8,15 @@ The image ./assets/img/hero.jpg is from https://unsplash.com/ and is therefore
 free to use. Author is Dan-Cristian Pădureț
 (https://unsplash.com/@dancristianpaduret).
 
+The image ./assets/img/math.jpg is from https://unsplash.com/ and is therefore
+free to use. Author is Anoushka P
+(https://unsplash.com/@_purianoushka).
+
+The image ./assets/img/physics.jpg is from https://unsplash.com/ and is therefore
+free to use. Author is JESHOOTS.COM
+(https://unsplash.com/@jeshoots).
+
+
 Any other part of this project is available under the MIT license as follow:
 
 Copyright (c) 2022 Vukac (https://github.com/vukac)
