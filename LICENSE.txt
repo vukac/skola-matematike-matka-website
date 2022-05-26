@@ -16,6 +16,10 @@ The image ./assets/img/physics.jpg is from https://unsplash.com/ and is therefor
 free to use. Author is JESHOOTS.COM
 (https://unsplash.com/@jeshoots).
 
+The service which adds form submitting functionality to this project is FormSubmit
+(https://formsubmit.co/). The API key b39dee304440a0c596b99e619cf32f6c which is
+used to make AJAX requests is only available to this project, but you can easily
+configure your own. Just check their docs!
 
 Any other part of this project is available under the MIT license as follow:
 

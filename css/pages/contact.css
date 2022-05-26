@@ -109,3 +109,14 @@
   background-color: #fff;
   color: #333;
 }
+
+.form__response {
+  line-height: 1.6;
+}
+
+.form__response--error {
+  color: #cc0000;
+}
+.form__response--success {
+  color: #337195;
+}

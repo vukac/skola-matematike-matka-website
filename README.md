@@ -23,3 +23,4 @@ make a hard reload. If that doesn't work, then restart Apache.
 - [Ionicons](https://ionic.io/ionicons)
 - [Swiper](https://swiperjs.com/)
 - [GLightbox](https://biati-digital.github.io/glightbox/)
+- [FormSubmit](https://formsubmit.co/)
