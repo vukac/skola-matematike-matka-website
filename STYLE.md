@@ -16,6 +16,7 @@
 
 - 1
 - 1.2
+- 1.8
 
 ## Colors
 
@@ -25,6 +26,7 @@
 
 ### Greys
 
+- #333
 - #555
 
 ### Linear gradients

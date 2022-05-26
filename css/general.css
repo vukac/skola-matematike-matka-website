@@ -24,15 +24,35 @@ body {
 ************************* HEADINGS *********************************
 ********************************************************************/
 
-.heading-primary {
-  font-size: 5.2rem;
+.heading-primary,
+.heading-secondary {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
 }
 
+.heading-primary {
+  font-size: 5.2rem;
+}
+
 .heading-primary--white {
   color: #fff;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+}
+
+.heading-secondary--grey {
+  color: #333;
+}
+
+/*******************************************************************
+************************* TEXT *************************************
+********************************************************************/
+
+.text-description {
+  line-height: 1.8;
 }
 
 /*******************************************************************
@@ -122,4 +142,36 @@ body {
 
 .navbar__link:hover {
   border-bottom: 2px solid #004d7b;
+}
+
+/* CONTAINER */
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+/* GRID */
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 8rem;
+}
+
+.grid__col--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*******************************************************************
+************************* UTILITIES ********************************
+********************************************************************/
+
+.margin-bottom--small {
+  margin-bottom: 1.6rem !important;
+}
+
+.margin-bottom--large {
+  margin-bottom: 6.4rem !important;
 }
