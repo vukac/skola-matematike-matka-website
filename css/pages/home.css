@@ -24,3 +24,74 @@
 .feature__text {
   line-height: 1.8;
 }
+
+/*******************************************************************
+************************* TESTIMONIALS SECTION *********************
+********************************************************************/
+
+.section-testimonials {
+  background-color: rgba(118, 77, 49, 0.4);
+  padding: 8rem 0 4.8rem;
+}
+
+/* TESTIMONIAL COMPONENT */
+
+.testimonial {
+  background-color: #fff;
+  border-top: 4px solid #004d7b;
+  border-radius: 2rem;
+  padding: 2.4rem;
+}
+
+.testimonial__name {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial__text-box {
+  line-height: 1.8;
+  font-style: italic;
+  height: 15rem;
+  overflow-y: scroll;
+}
+
+.testimonial__text-box::-webkit-scrollbar {
+  width: 5px;
+}
+
+.testimonial__text-box::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 2rem;
+}
+
+/* TESTIMONIAL CONTROLLERS COMPONENT */
+
+.testimonial-controllers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-controllers .testimonial-controllers__controller:not(:last-child) {
+  margin-right: 3.2rem;
+}
+
+.testimonial-controllers__controller {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #004d7b;
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+/* SWIPER */
+
+.swiper-button-disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}

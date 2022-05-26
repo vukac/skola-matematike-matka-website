@@ -24,10 +24,17 @@
 
 - #004d7b
 
+### Secondary
+
+- #764d31;
+- opacity:
+  - rgba(118, 77, 49, 0.4);
+
 ### Greys
 
 - #333
 - #555
+- #888
 
 ### Linear gradients
 
@@ -36,6 +43,11 @@
 ## Animations
 
 - 0.3s
+
+## Border radius (px)
+
+- 20
+- 50%
 
 ## Whitespaces (px)
 

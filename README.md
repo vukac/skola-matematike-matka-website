@@ -21,3 +21,4 @@ make a hard reload. If that doesn't work, then restart Apache.
 - [Google Fonts](https://fonts.google.com/)
 - [Unsplash](https://unsplash.com/)
 - [Ionicons](https://ionic.io/ionicons)
+- [Swiper](https://swiperjs.com/)
