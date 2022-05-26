@@ -46,6 +46,13 @@
   .gallery__item img {
     height: 15rem;
   }
+
+  /* PROGRAMS PAGE */
+
+  .card {
+    width: 80%;
+    justify-self: center;
+  }
 }
 
 /*******************************************************************
@@ -121,6 +128,13 @@
   .nav-open .navbar__icon--close {
     display: inline-block;
   }
+
+  /* PROGRAMS PAGE */
+
+  .card {
+    width: 100%;
+    justify-self: auto;
+  }
 }
 
 /*******************************************************************
@@ -147,6 +161,13 @@
   .gallery__item img {
     height: 20rem;
   }
+
+  /* PROGRAMS PAGE */
+
+  .card {
+    width: 70%;
+    justify-self: center;
+  }
 }
 
 /*******************************************************************
@@ -159,6 +180,12 @@
   .gallery__item img {
     height: 15rem;
   }
+
+  /* PROGRAMS PAGE */
+
+  .card {
+    width: 80%;
+  }
 }
 
 /*******************************************************************
@@ -170,5 +197,11 @@
 
   .gallery__item img {
     height: 10rem;
+  }
+
+  /* PROGRAMS PAGE */
+
+  .card {
+    width: 90%;
   }
 }
