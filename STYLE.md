@@ -44,6 +44,7 @@
 ## Animations
 
 - 0.3s
+- 0.5s ease-in
 
 ## Border radius (px)
 

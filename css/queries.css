@@ -41,3 +41,78 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/*******************************************************************
+************************* Bellow (<=) 750px ************************
+********************************************************************/
+
+@media (max-width: 46.875em) {
+  /* GENERAL */
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .navbar__logo {
+    z-index: 3000;
+  }
+
+  .navbar__main {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: all 0.5s ease-in;
+
+    /* Hide navigation this way,
+    because display: none; allows no transitions */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .navbar__main {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .navbar__main ul {
+    flex-direction: column;
+  }
+
+  .navbar__main ul li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 3.2rem;
+  }
+
+  .navbar__link:link,
+  .navbar__link:visited {
+    color: #555;
+    font-size: 2rem;
+  }
+
+  .navbar__btn {
+    display: inline-block;
+    z-index: 2000;
+  }
+
+  .nav-open .navbar__icon--menu {
+    display: none;
+  }
+
+  .nav-open .navbar__icon--close {
+    display: inline-block;
+  }
+}

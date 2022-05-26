@@ -114,6 +114,7 @@ body {
   align-items: center;
   height: 7rem;
   padding: 0.8rem 1.6rem 0 1.6rem;
+  position: relative;
 }
 
 .navbar__logo img {
@@ -142,6 +143,26 @@ body {
 
 .navbar__link:hover {
   border-bottom: 2px solid #004d7b;
+}
+
+.navbar__btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar__icon {
+  font-size: 3.6rem;
+}
+
+.navbar__icon--menu {
+  color: #fff;
+}
+
+.navbar__icon--close {
+  color: #333;
+  display: none;
 }
 
 /* FOOTER */
